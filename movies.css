@@ -1,0 +1,39 @@
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: url("movies.avif") no-repeat center center/cover;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    background: rgb(26, 25, 25);
+    padding: 20px;
+    border-radius: 10px;
+}
+input{
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+}
+button{
+    padding: 10px 15px;
+    margin-left: 10px;
+    background: rgb(216, 28, 28);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background: rgb(150, 10, 10);
+}
+#movieInfo{
+    margin-top: 20px;
+}
+img{
+    max-width: 100%;
+    border-radius: 10px;
+}
